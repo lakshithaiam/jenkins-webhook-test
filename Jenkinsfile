@@ -21,7 +21,8 @@ spec:
                 container('python') {
                     sh '''
                         pwd
-                        ls
+                        ls -a
+                        cat Jenkinsfile
                     '''
                 }
             }
